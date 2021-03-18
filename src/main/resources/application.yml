@@ -1,0 +1,11 @@
+# Tomcat
+spring:
+  profiles:
+    active: dev
+  application:
+    name: apiDemo
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+      enabled: true
